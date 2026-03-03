@@ -98,13 +98,21 @@ fn load_books(filename: &str) -> Vec<Book> {
 fn main() {
     let books = vec![
         Book {
+
+
             title: "1984".to_string(),
+
             author: "George Orwell".to_string(),
+
+
             year: 1949,
         },
         Book {
             title: "To Kill a Mockingbird".to_string(),
+
             author: "Harper Lee".to_string(),
+
+
             year: 1960,
         },
     ];
@@ -118,6 +126,8 @@ fn main() {
 
     println!("Loaded books:");
 
+
+    
     for book in loaded_books {
 
         println!("{} by {}, published in {}", book.title, book.author, book.year);
